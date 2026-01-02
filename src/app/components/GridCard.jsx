@@ -1,4 +1,4 @@
-export default function GridCard({ img, name, location, className }) {
+export default function GridCard({ img, name, country,flag, className }) {
   return (
     <div className={`relative overflow-hidden rounded-2xl ${className}`}>
       <img
@@ -18,7 +18,7 @@ export default function GridCard({ img, name, location, className }) {
           {name}
         </div>
         <div className="text-sm opacity-90">
-          {location}
+          {country}{flag}
         </div>
       </div>
     </div>

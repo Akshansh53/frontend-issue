@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/components/WhereKidsBuildSection.jsx"  ],
   "exclude": [
     "node_modules"
   ]
