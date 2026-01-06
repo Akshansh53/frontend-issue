@@ -51,7 +51,7 @@ export default function MediaMarquee() {
 
         <div className="relative overflow-hidden">
           <motion.div
-            className="flex gap-16 w-max"
+            className="flex  w-max"
             animate={{ x: ["0%", "-50%"] }}
             transition={{
               repeat: Infinity,
@@ -67,7 +67,7 @@ export default function MediaMarquee() {
                 alt={media.name}
                 width={150}
                 height={50}
-                className="h-[19vw] md:h-[12vw] sm:h-[14vw] object-contain"
+                className="h-[19vw] mx-4 md:h-[12vw] sm:h-[14vw] object-contain"
               />
             ))}
           </motion.div>
